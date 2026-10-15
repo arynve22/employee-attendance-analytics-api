@@ -883,7 +883,6 @@ def correct_attendance(
             }
 
 
-# 6. If nothing changed, return the existing record.
       # 6. Reject a correction when no fields change.
     if not changes:
         raise HTTPException(
